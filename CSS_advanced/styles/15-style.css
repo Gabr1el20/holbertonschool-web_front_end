@@ -380,6 +380,18 @@ html {
     font-size: 62.5%;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+*::before {
+  box-sizing: border-box;
+}
+
+*::after {
+  box-sizing: border-box;
+}
+
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
